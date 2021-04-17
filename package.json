@@ -1,0 +1,21 @@
+{
+  "name": "codecave",
+  "version": "1.0.0",
+  "description": "Realtime webchat with SocketIO and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Hussein Saad",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "qs": "^6.10.1",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
