@@ -59,7 +59,7 @@ greenThemeBtn.click(() => {
 // Checks for name with only spaces 
 joinBtn.click(() => {
   if (!usernameInput.val().replace(/\s/g, '').length) {
-    usernameInput.get(0).setCustomValidity('Contains only white space. Please refresh page and try again.');
+    usernameInput.get(0).setCustomValidity('Contains only white space. Add a non white-space character.');
   }
   else {
     usernameInput.get(0).setCustomValidity('');
