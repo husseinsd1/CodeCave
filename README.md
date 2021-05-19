@@ -6,7 +6,7 @@ Realtime chat rooms using Socket.io and Express.
 # How to use
 - Enter a name and choose the language you need help in from the drop down, then click the "join room" button.
 
-- You can change the theme by clicking one of the colored squared to the top-right.
+- You can change the theme by clicking one of the colored squares to the top-right.
 
 - Once you're in the room, type your message and click the paper plane to send it. 
 
